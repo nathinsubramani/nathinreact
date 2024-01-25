@@ -1,0 +1,10 @@
+.nav-bar {
+    display: flex;
+    background-color:rgb(125, 239, 68);
+    padding: 15px;
+    flex-direction: row;
+    gap:20px;
+    list-style-type: none;
+    justify-content:space-around ;
+    text-align: justify;
+}
