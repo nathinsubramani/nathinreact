@@ -28,7 +28,7 @@ const Callback = () => {
   }, [count]);
 
   return (
-    <div>
+    <div style={{ textAlign: 'center', margin: '20px' }}>
       <button onClick={handleClick}>Click</button>
       <p>count {count}</p>
       <button onClick={() => setCount(count + 1)}>Increment</button>

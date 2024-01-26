@@ -9,6 +9,7 @@ import Effect from './Effect';
 import Reducer from './Reducer/Reducer';
 import Footer from './Pages/Footer';
 import Callbacks from './Callbacks';
+import Image from './Image';
 
  export default function App(){
   return(
@@ -24,6 +25,7 @@ import Callbacks from './Callbacks';
       </Route>
       </Routes>
       <Callbacks/>
+      <Image/>
       <Footer/>
       </BrowserRouter>
      
